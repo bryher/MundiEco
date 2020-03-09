@@ -1,53 +1,6 @@
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-<!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--Meta Datos descriptivos-->
-  <title>Mundi Center - Seguridad y Tecnología - Precios de Mayorista</title>
-  <meta name="title" content="▷Mundi Center - Seguridad y Tecnología - Precios de Mayorista">
-  <meta name="description" content="Seguridad y Tecnología tenemos los mejores precios del mercado en Ecuador">
-  <meta property="og:image" content="img/Portad.png">
-  <meta property="og:description" content="Seguridad y Tecnología tenemos los mejores precios del mercado en Ecuador">
-  <meta property="og:title" content="▷Mundi Center - Seguridad y Tecnología - Precios de Mayorista">
-<!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<?php get_header(); ?>
 
-    <title>Mundicenter</title>
-  </head>
-  <body class="bg-light">
-      <header>
-<!--BARRA DE NAVEGACIÓN-->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background: #3d628f;">
-          <a class="navbar-brand" href="#"><img src="img/Logo.png" width="30" height="30" alt=""> <span style="color: #000;">MUNDI</span><span style="color: #ff6e00;">CENTER</span></a>
-          <button class="navbar-toggler py-0" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="h1">&#8801;</span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://wa.me/593999283481">Contáctese</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Categorías
-                      </a>
-                      <div class="dropdown-menu"style="background: #3d628f;" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="nav-link text-white-50" href="Productos-de-Seguridad">Seguridad</a>
-                          <a class="nav-link text-white-50" href="Productos-Tecnológicos">Tecnología</a>
-                          <div class="dropdown-divider"></div>
-                          <p class="mt-3 ml-3 text-white">Teclados y Mouse</p>
-                          <a class="nav-link text-white-50" href="Oficina">Oficina</a>
-                          <a class="nav-link text-white-50" href="Gamers">Gamers</a></div>
-                    </li>
-                </ul>
-            </div>
-          </nav>
-      </header>
+
       <div class="row">
           <a class="fixed-bottom offset-9 mb-2 col-1 text-secondary" href="#"><svg class="bi bi-arrow-up" width="3.5em" height="3.5em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10 5.5a.5.5 0 01.5.5v9a.5.5 0 01-1 0V6a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
@@ -363,19 +316,4 @@
 
 
 <!--Pie de Página-->
-<div class="row">
-      <div class="col-12 pt-4 text-white text-center" style="background: #3d628f;">
-        <p class="text-light"><img src="img/Logo.png" width="30" height="30" alt=""> MUNDI CENTER</P>
-        <a href="#"  class="text-light">Acerca de</a><span> &nbsp;&nbsp; |</span><span> &nbsp;&nbsp;</span><a href="https://wa.me/593999283481"  class="text-light">Contáctenos</a><span> &nbsp;&nbsp; |</span>
-        <span> &nbsp;&nbsp;</span><a href="#"  class="text-light">Productos</a>
-        <hr>
-        <p>&copy2020 Mundi Center derechos reservados</p>
-      <br>
-    </div>
-</div>
-
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-</html>
+<?php get_footer(); ?>

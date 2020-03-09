@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-<!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--Meta Datos descriptivos-->
-  <title>Mundi Center - Seguridad y Tecnología - Precios de Mayorista</title>
-  <meta name="title" content="&Mundi Center - Seguridad y Tecnología - Precios de Mayorista">
-  <meta name="description" content="Seguridad y Tecnología tenemos los mejores precios del mercado en Ecuador">
-  <meta property="og:image" content="img/Portad.png">
-  <meta property="og:description" content="Seguridad y Tecnología tenemos los mejores precios del mercado en Ecuador">
-  <meta property="og:title" content="▷Mundi Center - Seguridad y Tecnología - Precios de Mayorista">
-<!-- Bootstrap CSS -->
+
 <?php get_header() ?>
 <!--CARRUCEL-->
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -126,7 +113,7 @@
                         </div>
                     </div>
                     <div class="row">
-                            <a href="Productos-de-Seguridad.php" class="btn btn-danger col-6 col-sm-3 mb-3 mx-auto font-weight-bold">Ver Productos <svg class="bi bi-pencil" width="2em" height="2em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <a href="<?php the_permalink()?>" class="btn btn-danger col-6 col-sm-3 mb-3 mx-auto font-weight-bold">Ver Productos <svg class="bi bi-pencil" width="2em" height="2em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" d="M13.293 3.293a1 1 0 011.414 0l2 2a1 1 0 010 1.414l-9 9a1 1 0 01-.39.242l-3 1a1 1 0 01-1.266-1.265l1-3a1 1 0 01.242-.391l9-9zM14 4l2 2-9 9-3 1 1-3 9-9z" clip-rule="evenodd"/>
                               <path fill-rule="evenodd" d="M14.146 8.354l-2.5-2.5.708-.708 2.5 2.5-.708.708zM5 12v.5a.5.5 0 00.5.5H6v.5a.5.5 0 00.5.5H7v.5a.5.5 0 00.5.5H8v-1.5a.5.5 0 00-.5-.5H7v-.5a.5.5 0 00-.5-.5H5z" clip-rule="evenodd"/>
                             </svg><span class="spinner-grow spinner-grow-sm text-black-50" role="status" aria-hidden="true"></a>
